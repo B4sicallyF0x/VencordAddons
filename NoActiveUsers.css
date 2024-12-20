@@ -1,0 +1,14 @@
+/**
+ * @name NoActiveUsers
+ * @author B4sicallyF0x
+ * @version 1.0.0
+ * @description Removes the "Active Now" tab from your friends list.
+ * @source https://github.com/B4sicallyF0x/VencordAddons
+ * @website https://www.b4sicallyf0x.com
+*/
+
+*[class^='nowPlayingColumn']{
+
+display: none;
+
+}
